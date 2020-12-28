@@ -37,6 +37,11 @@ class Animated:
         self.image = None
         self.flip = False
 
+        try:
+            self.action = "Idle"
+        except:
+            self.action = None
+
     def load_images(self, action, folder, durations):
         animation_frames = []
         for frame_duration in range(len(durations)):
@@ -45,10 +50,11 @@ class Animated:
         self.animation_database[action] = animation_frames
     
     def update(self):
-        self.animation_frame += 1
-        if self.animation_frame > len(self.animation_database[self.action]) - 1:
-            self.animation_frame = 0
-        self.image = self.animation_database[self.action][self.animation_frame]
+        if self.action != None:
+            self.animation_frame += 1
+            if self.animation_frame > len(self.animation_database[self.action]) - 1:
+                self.animation_frame = 0
+            self.image = self.animation_database[self.action][self.animation_frame]
 
 class Player(Entity):
     def __init__(self, rect, controls, speed, gravity, game_map):
