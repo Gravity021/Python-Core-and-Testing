@@ -1,0 +1,15 @@
+{
+    "Tile_space": {
+        "Layer_0": {
+            "5,5": {"Tileset": "grass_0", "Tile": "grass_0", "Type": "Collidable"}, 
+            "6,5": {"Tileset": "grass_0", "Tile": "grass_0", "Type": "Collidable"}, 
+            "7,5": {"Tileset": "grass_0", "Tile": "grass_0", "Type": "Collidable"}, 
+            "8,5": {"Tileset": "grass_0", "Tile": "grass_0", "Type": "Collidable"}, 
+            "9,5": {"Tileset": "grass_0", "Tile": "grass_0", "Type": "Collidable"}, 
+            "7,4": {"Tileset": "transitions", "Tile": "spawn_0", "Type": "Custom", "Custom": "test_0.json"}
+        }
+    }, 
+    "World_space": {
+
+    }
+}
