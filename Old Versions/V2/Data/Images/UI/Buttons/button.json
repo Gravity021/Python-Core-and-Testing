@@ -1,0 +1,9 @@
+{
+    "Tile_space": {
+        "Layer_0": {
+            "0,0": {"Tileset": "Button", "Tile": "Left", "Type": "Button"}, 
+            "1,0": {"Tileset": "Button", "Tile": "Centre", "Type": "Button"}, 
+            "2,0": {"Tileset": "Button", "Tile": "Right", "Type": "Button"}
+        }
+    }
+}

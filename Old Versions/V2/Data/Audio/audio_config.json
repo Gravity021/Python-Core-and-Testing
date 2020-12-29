@@ -1,0 +1,8 @@
+{
+    "Channels": {
+        "SFX": {"volume": 1}
+    },
+    "Sounds": {
+        "Jump": {"path": "/Jump.wav", "channel": "SFX", "volume": 1, "play_times": 1}
+    }
+}

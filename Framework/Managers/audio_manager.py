@@ -1,4 +1,5 @@
 import pygame, json
+
 from Framework import sound
 
 class AudioManager:
@@ -26,6 +27,3 @@ class AudioManager:
 
         elif s == None:
             print(f"WARNING: Sound {name} could not be found")
-
-class EntityManager():
-    pass
